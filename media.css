@@ -1,6 +1,5 @@
 @media only screen and (min-width:200px) and (max-width:575px){
 
-/* HEADER */
 header{
   flex-direction: column;
   align-items: stretch;
@@ -29,12 +28,10 @@ header{
   font-size: 12px;
 }
 
-/* SEARCH */
 .searchbox button{
   padding: 10px;
 }
 
-/* FIXED BOTTOM BUTTONS */
 .headerbtn{
   position: fixed;
   bottom: 0;
@@ -47,28 +44,22 @@ header{
   border-top: 1px solid #ccc;
 }
 
-/* BANNER HIDE */
 .bannersection{
   display: none;
 }
 
-/* ORDER BANNER */
 .orderbanner{
   flex-direction: column;
   padding: 10px;
 }
 
-/* CATEGORY */
 .categoryitems{
   flex-basis: 25%;
 }
-
-/* PRODUCT SCROLL */
 .productrow{
   overflow-x: auto;
 }
 
-/* FOOTER */
 footer{
   padding-top: 0;
 }
@@ -77,4 +68,78 @@ footer{
   flex-direction: column;
   padding: 10px;
 }
+}
+@media only screen and (min-width:576px) and (max-width:991px){
+
+header{
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+
+.headerleft{
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo{
+  padding: 5px;
+}
+
+.headeraddress{
+  padding: 5px;
+  text-align: left;
+}
+
+.headeraddress h3{
+  font-size: 16px;
+}
+
+.headeraddress p{
+  font-size: 13px;
+}
+
+.searchbox{
+  width: 100%;
+}
+
+.searchbox button{
+  padding: 12px;
+}
+
+.headerbtn{
+  position: static;
+  width: auto;
+  margin-right: 10px;
+}
+
+.bannersection{
+  display: block;
+}
+
+.orderbanner{
+  flex-direction: row;
+  padding: 15px;
+}
+
+.categoryitems{
+  flex-basis: 20%;
+}
+
+.productrow{
+  overflow-x: auto;
+}
+
+footer{
+  padding-top: 20px;
+}
+
+.footermidrow1{
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
 }
