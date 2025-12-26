@@ -178,7 +178,9 @@ header{
 
 .productitems img {
   width: 100%;
-  height: auto;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 8px;
   display: block;
   border-radius: 6px;
 }
@@ -270,4 +272,29 @@ header{
 
 .categorieslist ul li a:hover{
   color: #0c831f;
+}
+.add-btn{
+  align-self: flex-end;
+  padding: 4px 10px;
+  border: 1px solid #0c831f;
+  background: #fff;
+  color: #0c831f;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.add-btn{
+  align-self: flex-end;
+  padding: 4px 14px;
+  border: 1.5px solid#0c831f;
+  background: #fff;
+  color: #0c831f;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.add-btn:hover{
+  background: #0c831f;
+  color: #fff;
 }
